@@ -1,0 +1,36 @@
+dbt_project:
+  outputs:
+    dev:
+      dbname: analytics
+      host: postgres
+      password: dbt
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: dbt
+  target: dev
+my_project:
+  outputs:
+    dev:
+      dbname: db
+      host: host
+      pass: pass
+      port: 5432
+      schema: schema
+      threads: 1
+      type: postgres
+      user: user
+  target: dev
+project:
+  outputs:
+    dev:
+      dbname: analytics
+      host: postgres
+      pass: dbt
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: dbt
+  target: dev

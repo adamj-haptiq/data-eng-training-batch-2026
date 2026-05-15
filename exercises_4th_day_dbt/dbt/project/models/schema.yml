@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: greenwheel
+    description: Raw Greenwheel bikeshare data loaded via dbt seeds
+    schema: public
+    tables:
+      - name: raw_users
+        description: Raw user records
+      - name: raw_bikes
+        description: Raw bike inventory
+      - name: raw_trips
+        description: Raw trip transactions
+        columns:
+          - name: trip_id
+            data_tests:
+              - unique
+              - not_null
+
+models:
+  - name: stg_users
+    description: Staging model for users with uppercase names and lowercase emails
+    columns:
+      - name: user_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_bikes
+    description: Staging model for bikes with model_type renamed to bike_model
+    columns:
+      - name: bike_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_bike_usage
+    description: Fact table with total trip cost and riding minutes aggregated per bike
+    columns:
+      - name: bike_id
+        data_tests:
+          - unique
+          - not_null

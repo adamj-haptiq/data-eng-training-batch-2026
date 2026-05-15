@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres
+    environment:
+      POSTGRES_USER: dbt
+      POSTGRES_PASSWORD: dbt
+      POSTGRES_DB: analytics
+    ports:
+      - "5432:5432"
+    networks:
+      - dbt_net
+
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.9.latest
+    container_name: dbt
+    volumes:
+      - ./dbt:/usr/app
+      - ./dbt/profiles.yml:/root/.dbt/profiles.yml
+    working_dir: /usr/app
+    networks:
+      - dbt_net
+    depends_on:
+      - postgres
+    entrypoint: ["sleep", "infinity"]
+
+networks:
+  dbt_net:
