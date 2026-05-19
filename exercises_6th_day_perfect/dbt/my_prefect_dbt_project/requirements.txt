@@ -1,0 +1,2 @@
+prefect-dbt>=0.7.0
+dbt-duckdb>=1.9.4,<2.0.0

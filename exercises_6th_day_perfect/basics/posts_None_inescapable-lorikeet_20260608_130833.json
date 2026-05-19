@@ -1,0 +1,260 @@
+{
+  "processing_summary": {
+    "data_type": "posts",
+    "processed_count": 20,
+    "flow_name": "inescapable-lorikeet",
+    "flow_id": "ae0eb408-e858-40f2-87cc-9d838cff1e20",
+    "deployment_name": null,
+    "processing_timestamp": "2026-06-08T13:08:33.065962"
+  },
+  "runtime_context": {
+    "flow_parameters": {
+      "data_type": "posts",
+      "limit": 20
+    },
+    "flow_run_name": "inescapable-lorikeet",
+    "deployment_id": "None"
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020690"
+      }
+    },
+    {
+      "id": 2,
+      "title": "qui est esse",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020725"
+      }
+    },
+    {
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020735"
+      }
+    },
+    {
+      "id": 4,
+      "title": "eum et est occaecati",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020744"
+      }
+    },
+    {
+      "id": 5,
+      "title": "nesciunt quas odio",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020753"
+      }
+    },
+    {
+      "id": 6,
+      "title": "dolorem eum magni eos aperiam quia",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020827"
+      }
+    },
+    {
+      "id": 7,
+      "title": "magnam facilis autem",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020838"
+      }
+    },
+    {
+      "id": 8,
+      "title": "dolorem dolore est ipsam",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020847"
+      }
+    },
+    {
+      "id": 9,
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020856"
+      }
+    },
+    {
+      "id": 10,
+      "title": "optio molestias id quia eum",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020865"
+      }
+    },
+    {
+      "id": 11,
+      "title": "et ea vero quia laudantium autem",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020873"
+      }
+    },
+    {
+      "id": 12,
+      "title": "in quibusdam tempore odit est dolorem",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020882"
+      }
+    },
+    {
+      "id": 13,
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020890"
+      }
+    },
+    {
+      "id": 14,
+      "title": "voluptatem eligendi optio",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020898"
+      }
+    },
+    {
+      "id": 15,
+      "title": "eveniet quod temporibus",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020907"
+      }
+    },
+    {
+      "id": 16,
+      "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020915"
+      }
+    },
+    {
+      "id": 17,
+      "title": "fugit voluptas sed molestias voluptatem provident",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020923"
+      }
+    },
+    {
+      "id": 18,
+      "title": "voluptate et itaque vero tempora molestiae",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020932"
+      }
+    },
+    {
+      "id": 19,
+      "title": "adipisci placeat illum aut reiciendis qui",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020940"
+      }
+    },
+    {
+      "id": 20,
+      "title": "doloribus ad provident suscipit at",
+      "processed_by": "adaptive_processing-f2f",
+      "processing_mode": "development",
+      "runtime_metadata": {
+        "fetched_by": "intelligent_data_fetch-b28",
+        "flow_name": "inescapable-lorikeet",
+        "deployment": null,
+        "fetch_timestamp": "2026-06-08T13:08:33.020948"
+      }
+    }
+  ]
+}
