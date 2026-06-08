@@ -10,4 +10,4 @@ select
     lookback_years,
     loaded_at
 from source
-where total_events >= 3
+where total_events >= 3 -- With 1–2 events, consistency_ratio isn’t very meaningful
