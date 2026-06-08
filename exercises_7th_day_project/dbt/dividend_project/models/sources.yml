@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: raw_dividend_events
+        columns:
+          - name: ticker
+            data_tests:
+              - not_null
+          - name: ex_dividend_date
+            data_tests:
+              - not_null
+          - name: dividend_amount
+            data_tests:
+              - not_null
+      - name: raw_ticker_scores
+        columns:
+          - name: ticker
+            data_tests:
+              - unique
+              - not_null

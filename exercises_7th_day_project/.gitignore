@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.duckdb
+*.duckdb.wal
+data/
+dbt/dividend_project/target/
+dbt/dividend_project/dbt_packages/
+dbt/dividend_project/logs/
+great_expectations/uncommitted/
+great_expectations/.ge_store_backend_id

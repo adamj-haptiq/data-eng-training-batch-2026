@@ -1,0 +1,7 @@
+dividend_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH', '../../data/dev.duckdb') }}"
+      threads: 1
+  target: dev

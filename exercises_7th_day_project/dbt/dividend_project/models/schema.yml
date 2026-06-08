@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: stg_dividend_events
+    data_tests:
+      - dbt_expectations.expect_compound_columns_to_be_unique:
+          column_list: ["ticker", "ex_dividend_date"]
+          quote_columns: false
+    columns:
+      - name: ticker
+        data_tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ex_dividend_date
+        data_tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_not_be_null
+      - name: dividend_amount
+        data_tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              strictly: true
+
+  - name: stg_ticker_scores
+    columns:
+      - name: ticker
+        data_tests:
+          - unique
+          - not_null
+      - name: consistency_ratio
+        data_tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 1
+      - name: total_events
+        data_tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 3
+
+  - name: int_ex_dividend_analysis
+    columns:
+      - name: is_favorable
+        data_tests:
+          - not_null
+
+  - name: mart_best_dividend_tickers
+    data_tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+    columns:
+      - name: ticker
+        data_tests:
+          - not_null
+      - name: ex_dividend_date
+        data_tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_not_be_null
+      - name: dividend_amount
+        data_tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              strictly: true
+      - name: consistency_ratio
+        data_tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 1
